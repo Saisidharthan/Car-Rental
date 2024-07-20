@@ -43,11 +43,11 @@ function CarCard(props: any) {
             </div>
             <button className='hidden group-hover:flex bg-gradient-to-r from-red-950 to-black p-2 rounded-lg text-white w-full px-5 justify-between text-2xl border-[1px] border-red-950'>
                 Rent Now
-                <span className='bg-red-900 p-1 rounded-md'>
+                {/*<span className='bg-red-900 p-1 rounded-md'>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
                 </svg>
-                </span>
+                </span> */}
             </button>
         </div>
     );
