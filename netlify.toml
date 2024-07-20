@@ -5,9 +5,6 @@
   # Directory where the build output is located
   publish = ".next"
 
-  # Optional: Specify the directory for the Next.js static files if using a custom output directory
-  # publish = "out"
-
 [build.environment]
   # Environment variables to be used during the build
   NEXT_PUBLIC_API_URL = "https://api.example.com"
